@@ -4,6 +4,83 @@
   box-sizing: border-box;
 }
 
+/* -------------------------------------------- HEADER -------------- */
+
+header {
+  display: flex;
+  height: 50px;
+}
+
+header img {
+  position: relative;
+  top: 8px;
+  left: 5px;
+}
+
+header a {
+  color:  rgba(4, 129, 134, 0.626);
+  display: flex;
+  font-size: 30px;
+  margin: 10px;
+  align-items: center;
+
+  border-radius: 30%;
+  transition: background 0.3s;
+}
+
+#icons {
+  margin-left: 90%;
+}
+
+header a:hover {
+  background-color: rgba(225, 217, 182, 0.289);
+}
+
+/* ------------------------------------ CONTAINER / BODY ------------------------------------- */
+
 body {
   background-color: rgb(255, 247, 237);
+  font-family: "Open Sans", serif;
+}
+
+container {
+  display: grid;
+  place-content: center;
+  width: 100%;
+}
+
+box {
+  background-color: rgba(225, 217, 182, 0.289);
+  padding: 15px;
+  border-radius: 30px;
+}
+
+/* ---------------------------------------- H1, H2, H3, P ------------------ */
+
+article h1 {
+  font-size: 50px;
+  background-image: linear-gradient(
+    to right,
+    #74b0a9 0%,
+    #e8dfc6 47%,
+    #cfa32a 99%,
+    #bf9c10 100%
+  );
+  background-size: 39%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 15px;
+  color: rgb(5, 183, 189);
+}
+
+p {
+  font-size: 25px;
 }
