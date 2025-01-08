@@ -39,7 +39,7 @@ header a:hover {
 /* ------------------------------------ CONTAINER / BODY ------------------------------------- */
 
 body {
-  background-color: rgb(223, 209, 187);
+  background-color: rgba(229, 211, 182, 0.609);
   font-family: "Mohave", serif;
 }
 
@@ -53,7 +53,7 @@ box {
   background-color: rgb(255, 247, 237);
   padding: 30px;
   border-radius: 30px;
-  margin: 15px 12.8%;
+  margin: 15px 300px;
 }
 
 /* ---------------------------------------- H1, H2, H3, P ------------------ */
@@ -83,7 +83,7 @@ topics h2 {
     #cfa32a 99%,
     #bf9c10 100%
   );
-  background-size: 33%;
+  background-size: 35%;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -91,6 +91,12 @@ topics h2 {
 
 h2 {
   font-size: 35px;
+}
+
+aside p {
+   margin: 2px 4px;
+  font-size: 20px;
+  color: #000000b0;
 }
 
 h3 {
@@ -106,21 +112,33 @@ p {
   font-size: 25px;
 }
 
-#about p {
-  margin: 24px 6px;
-  text-align: center;
-  font-size: 20px;
-  color: #000000b0;
-}
-
 /* ---------------------------------------- Image ------------------ */
 
 box img {
   border-radius: 3%;
-  width: 987px;
+  width: 960px;
+}
+
+#um img {
+  margin-bottom: 45px;
+}
+
+#dois img {
+    margin-bottom: 45px;
+}
+
+#tres img {
+  margin-bottom: -20px;
 }
 
 /* ---------------------------------------- ABOUT ------------- */
+
+#about p {
+  margin: 24px 4px;
+  text-align: center;
+  font-size: 20px;
+  color: #000000b0;
+}
 
 #about {
   margin: 40px 0px;
@@ -172,9 +190,6 @@ here {
   color: rgba(0, 0, 0, 0.749);
 }
 
-here {
-  color: rgb(55, 181, 166);
-}
 /* -------------------------------------- TRES ------------------ */
 
 #tres h2 {
@@ -191,6 +206,17 @@ here {
   color: rgba(0, 0, 0, 0.749);
 }
 
-here {
-  color: rgb(55, 181, 166);
+/* ----------------------------------------- FOOTER ------------------ */
+
+elly p {
+  text-align: center;
+  font-family: "Loved by the King", serif;
+  color: rgb(134, 182, 193);
+}
+
+final p {
+  margin: 24px 4px;
+  text-align: center;
+  font-size: 20px;
+  color: #000000b0;
 }
