@@ -29,11 +29,11 @@ header a {
 }
 
 #icons {
-  margin-left: 90%;
+  margin-left: 89%;
 }
 
 header a:hover {
-  background-color: rgba(177, 156, 62, 0.407);
+  background-color: rgba(177, 156, 62, 0.209);
 }
 
 /* ------------------------------------ CONTAINER / BODY ------------------------------------- */
@@ -110,6 +110,13 @@ article h3 {
 
 p {
   font-size: 25px;
+}
+
+article p {
+  margin-bottom: -20px;
+  margin-top: 20px;
+  text-align: center;
+  color: #74b0a9c7;
 }
 
 /* ---------------------------------------- Image ------------------ */
@@ -219,4 +226,16 @@ final p {
   text-align: center;
   font-size: 20px;
   color: #000000b0;
+}
+
+/*  --------------------------------------------- LOCATION ------------------- */
+
+box a {
+  color: #88621b85;
+  vertical-align: top;
+  
+}
+
+box a:hover {
+  color: #b997576f;
 }
